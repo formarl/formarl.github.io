@@ -370,7 +370,12 @@
             <h3 style="color:black;">6:00 - 6:45pm: "Logic-Guided Reinforcement Learning" - Suguman Bansal</h3>
         </div>
         <div class="talk-abstract" id="abstract4">
-            <p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.....</p>
+            <p>
+                <b>Abstract:</b> TBA
+                </p>
+                <p>
+                <b>Bio:</b> TBA
+            </p>
         </div>
     </div>
 
@@ -380,7 +385,48 @@
             <h3 style="color:black;">6:45 - 7:30pm: "Complexity of Policy Iteration" - Shivaram Kalyanakrishnan</h3>
         </div>
         <div class="talk-abstract" id="abstract5">
-            <p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.....</p>
+           
+
+            <p>
+                <b>Abstract:</b> Markov Decision Problems (MDPs) are a well-studied abstraction of
+                sequential decision making. Policy Iteration (PI) is a classical,
+                widely-used family of algorithms to compute an optimal policy for a given
+                MDP. PI is extremely efficient on MDPs typically encountered in practice.
+                PI is also appealing from a theoretical standpoint, since it naturally
+                yields "strong" running time bounds for MDP planning. Strong bounds depend
+                only on the number of states and actions in the MDP, and not on additional
+                parameters such as the discount factor and the size of the real-valued
+                coefficients. </p>
+                <p>
+                It has proven surprisingly difficult to establish tight theoretical upper
+                bounds on the running time of PI. On MDPs with n states and 2 actions per
+                state, the trivial upper bound on the number of iterations taken by PI is
+                2^{n}. It was not until 1999---nearly four decades after the PI algorithm
+                was first published---that this trivial bound was improved, and that by a
+                mere linear factor (to O(2^{n}/n)). In this talk, I will present a
+                line of work that has yielded some improvements over existing bounds. I
+                will also present some open problems in the area. The talk is expected to
+                be widely accessible, since the analysis only uses basic ideas from
+                discrete structures and algorithms.
+                </p>
+                <p>
+                <b>Bio:</b> 
+                Shivaram Kalyanakrishnan is an Associate Professor in the Department of
+                Computer Science and Engineering at the Indian Institute of Technology
+                Bombay. His research interests include artificial intelligence and machine
+                learning, spanning topics such as sequential decision making, multi-agent
+                learning, multi-armed bandits, and humanoid robotics. Kalyanakrishnan
+                received a Ph.D. in computer science from the University of Texas at
+                Austin. Subsequently he was a Research Scientist at Yahoo Labs Bangalore
+                and an INSPIRE Faculty Fellow at the Indian Institute of Science,
+                Bangalore. His contributions to robot soccer have received two Best
+                Student Paper awards at the annual RoboCup competitions. Kalyanakrishnan
+                was also a member of the first study panel of the One Hundred Year Study
+                on Artificial Intelligence (AI100), which in 2016 released its report
+                titled "Artificial Intelligence and Life in 2030".
+            </p>
+
+
         </div>
     </div>
 </div>
@@ -396,9 +442,9 @@
     function toggleAbstract(abstractId) {
         var abstract = document.getElementById(abstractId);
         if (abstract.style.display === "block") {
-            abstract.style.display = "none"; // Hide the abstract
+            abstract.style.display = "none"; 
         } else {
-            abstract.style.display = "block"; // Show the abstract
+            abstract.style.display = "block"; 
         }
     }
 </script>
